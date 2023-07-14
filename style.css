@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+:root{
+    --primary-color: #FED001;
+}
+
+html{
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+
+p,a {
+    font-size: 1.6rem;
+}
+
+.wrapperContainer-dark{
+    background-color: #2a2a2a;
+}
+
+.wrapperContainer-light{
+    background-color: #fafafa;
+}
+
+.wrapperContainer-dark2{
+    background-color: #003464;
+}
+
+.container { 
+    
+    margin: auto;
+    max-width: 1276px;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary-color);
+}
+
+.header_nav ul{
+    display: flex;
+
+}
+
+.header_nav ul li{
+    display: flex;
+    gap: 1.5rem;
+    
+}
+.header a {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.header a{
+    border-radius: 3px;
+}
+
+#logos{
+    border: none;
+    padding: 20px;
+    
+}
+
+.heroBanner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    gap: 10rem;
+}
+
+.wrapperContainer-hero{
+    background-image: linear-gradient(white,yellow);
+}
+
+.h1banner{
+    font-size: 4.8rem;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    width: max-content;
+    margin-top: 15px;
+    padding:2.0rem;
+    
+}
+.header_content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.h2cursos{
+    font-size: 3rem;
+    padding: 5rem;
+}
+
+.cursos{
+    text-align: center;
+}
+
+.cursosContainer{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+h2{
+
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+.curso_card h3{
+    padding: 10px;
+    font-size: 2.4rem;
+}
+.curso_card p{
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+}
+
+.section_btn{
+
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    width: max-content;
+    margin-top: 4rem;
+    padding:2.0rem;
+    display: inline-block;
+    margin: 50px;
+}
+
+.curso_card_content {
+    padding: 1rem;
+}
+
+.curso_card{
+    border: 1px solid #ccc;
+    padding: 0px;
+    border-right-width: 8px;
+    border-radius: 15px;
+    flex:1;
+
+}
+
+.escola {
+    display: flex;
+    gap: 6rem;
+    padding-top: 6rem;
+}
+
+.escola_title{
+    font-size: 3.2rem;
+    color: white;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+
+}
+
+.escola p{
+    color: white;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.section_title {
+
+    text-align: center;
+    padding: 4rem;
+}
+
+.maps{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.addres{
+    margin-top: 9rem;
+    font-size: 2rem;
+}
+
+.footer{
+    padding: 25px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.iframe{
+    margin-bottom: 60px;
+}
+
+.cursos_card_content p {
+    padding: 15px;
+    line-height: 3rem;
+}
